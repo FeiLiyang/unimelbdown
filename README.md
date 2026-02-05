@@ -2,7 +2,10 @@
 
 This package provides a template for writing a thesis at the University
 of Melbourne using **rmarkdown** and **bookdown**. This project is based
-on Chester Ismay’s [thesisdown](https://github.com/ismayc/thesisdown).
+on Chester Ismay’s [thesisdown](https://github.com/ismayc/thesisdown),
+tailored by Luke Zappia’s
+[unimelbdown](https://github.com/lazappi/unimelbdown) and merged by
+Liyang Fei.
 
 Currently, the PDF and gitbook versions are fully-functional. There is
 also a Word template which is complete enough for proofing/editing but
@@ -16,7 +19,7 @@ Template](https://github.com/jpap/phd-thesis-template).
 You can install **unimelbdown** from GitHub using **devtools**:
 
     # install.packages("devtools")
-    devtools::install_github("lazappi/unimelbdown")
+    devtools::install_github("FeiLiyang/unimelbdown")
 
 You will also need to install LaTeX. The easiest way to do that is using
 the **tinytex** package:

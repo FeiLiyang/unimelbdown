@@ -1,4 +1,11 @@
-# unimelbdown (development version)
+# unimelbdown 0.2.0.1
+
+- Merge `unimelbdown 0.0.0.9003` over `thesisdown 0.2.0`
+
+---
+
+
+# unimelbdown
 
 # unimelbdown 0.0.0.9003
 
