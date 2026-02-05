@@ -1,15 +1,16 @@
-Package: thesisdown
-Title: An updated R Markdown thesis template using the bookdown package
-Version: 0.2.0.9000
+Package: unimelbdown
+Title: An updated unimelb R Markdown thesis template using the bookdown package
+Version: 0.0.0.9003
+Date: 2018-10-23
 Authors@R: c(
-    person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = c("cre", "aut")),
+    person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = "aut"),
     person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut"),
-    person("Shir", "Dekel", email = "shirdekel@yahoo.com.au", role = "ctb"))
-Description: Using the bookdown package and LaTeX and Word thesis templates from
-    Reed College, this package aims to encourage reproducible research using
-    simple Markdown syntax while embedding all of the R code to produce plots
-    and analyses as well.
-Maintainer: Chester Ismay <chester.ismay@gmail.com>
+    person("Luke", "Zappia", email = "lazappi@users.noreply.github.com", role = c("cre", "aut")))
+Description: Using the bookdown package and LaTeX and Word thesis templates for
+    the University of Melbourne, this package aims to encourage reproducible
+    research using simple Markdown syntax while embedding all of the R code to
+    produce plots and analyses. Based on Chester Ismay's thesisdown.
+Maintainer: Luke Zappia <lazappi@users.noreply.github.com>
 Depends:
     R (>= 3.2.0)
 Imports: 
@@ -26,4 +27,4 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 SystemRequirements: pandoc (>= 1.18) - https://pandoc.org
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2

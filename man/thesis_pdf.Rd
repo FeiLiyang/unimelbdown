@@ -16,7 +16,7 @@ should be created}
 "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn",
 and "haddock". Pass NULL to prevent syntax highlighting.}
 
-\item{...}{Further arguments passed to or from other methods.}
+\item{...}{additional arguments passed to \code{bookdown::pdf_book}}
 }
 \value{
 A modified \code{pdf_document} based on the Reed Senior Thesis LaTeX
@@ -24,10 +24,11 @@ A modified \code{pdf_document} based on the Reed Senior Thesis LaTeX
 }
 \description{
 This is a function called in output in the YAML of the driver Rmd file
-to specify using the Reed College Senior Thesis LaTeX template and cls files.
+to specify the LaTeX template and cls files.
 }
 \examples{
 \dontrun{
-output:thesisdown::thesis_pdf
+ output: unimelbdown::thesis_pdf
 }
+
 }

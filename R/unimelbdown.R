@@ -1,5 +1,5 @@
-#' thesisdown: A package for creating undergraduate, Masters, and PhD theses
-#' using R Markdown
+#' unimelb: A package for creating University of Melbourne theses using R
+#' Markdown
 #'
 #'
 #' @section thesis_gitbook:
@@ -10,6 +10,11 @@
 #' Creates an R Markdown thesis template as a Microsoft Word document
 #' @section thesis_epub:
 #' Creates an R Markdown thesis template as an ebook
-#' @docType package
-#' @name thesisdown
-"_PACKAGE"
+#' @name unimelbdown
+#' @import dplyr
+#' @import ggplot2
+#' @import knitr
+#' @import here
+NULL
+
+NULL

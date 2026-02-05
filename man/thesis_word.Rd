@@ -7,7 +7,7 @@
 thesis_word(...)
 }
 \arguments{
-\item{...}{Further arguments passed to or from other methods.}
+\item{...}{additional arguments passed to \code{bookdown::word_document2}}
 }
 \value{
 A Word Document based on (hopefully soon, but not currently)
@@ -19,6 +19,6 @@ to specify the creation of a Microsoft Word version of the thesis.
 }
 \examples{
 \dontrun{
-output:thesisdown::thesis_word
+ output: unimelbdown::thesis_word
 }
 }
